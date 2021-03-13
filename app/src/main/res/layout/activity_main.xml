@@ -15,28 +15,63 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:id="bu1"
+            android:id="@+id/button1"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:alpha="test"
+            android:onClick="bu1"
             app:backgroundTint="@color/purple_200" />
 
         <Button
-            android:id="bu2"
+            android:id="@+id/button2"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="4pt"
             android:layout_marginLeft="4pt"
+            android:onClick="bu1"
             app:backgroundTint="@color/purple_200" />
 
         <Button
-            android:id="bu3"
+            android:id="@+id/button3"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="4pt"
             android:layout_marginLeft="4pt"
+            android:onClick="bu1"
             app:backgroundTint="@color/purple_200" />
     </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4pt"
+        android:onClick="bu1"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="bu1"
+            app:backgroundTint="@color/purple_200" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="4pt"
+            android:layout_marginLeft="4pt"
+            android:onClick="bu1"
+            app:backgroundTint="@color/purple_200" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="4pt"
+            android:layout_marginLeft="4pt"
+            android:onClick="bu1"
+            app:backgroundTint="@color/purple_200" />
+    </TableRow>
+
     <TableRow
         android:gravity="center"
         android:layout_width="match_parent"
@@ -44,56 +79,28 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:id="bu4"
+            android:id="@+id/button7"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:alpha="test"
+            android:onClick="bu1"
             app:backgroundTint="@color/purple_200" />
 
         <Button
-            android:id="bu5"
+            android:id="@+id/button8"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="4pt"
             android:layout_marginLeft="4pt"
+            android:onClick="bu1"
             app:backgroundTint="@color/purple_200" />
 
         <Button
-            android:id="bu6"
+            android:id="@+id/button9"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:layout_marginStart="4pt"
             android:layout_marginLeft="4pt"
-            app:backgroundTint="@color/purple_200" />
-    </TableRow>
-
-    <TableRow
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_marginTop="4pt"
-        android:layout_height="match_parent" >
-
-        <Button
-            android:id="bu7"
-            android:layout_width="40pt"
-            android:layout_height="40pt"
-            android:alpha="test"
-            app:backgroundTint="@color/purple_200" />
-
-        <Button
-            android:id="bu8"
-            android:layout_width="40pt"
-            android:layout_height="40pt"
-            android:layout_marginStart="4pt"
-            android:layout_marginLeft="4pt"
-            app:backgroundTint="@color/purple_200" />
-
-        <Button
-            android:id="bu9"
-            android:layout_width="40pt"
-            android:layout_height="40pt"
-            android:layout_marginStart="4pt"
-            android:layout_marginLeft="4pt"
+            android:onClick="bu1"
             app:backgroundTint="@color/purple_200" />
     </TableRow>
 
